@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Container, Stack } from '@mui/system'
-import { Link, Typography } from '@mui/material'
+import { Divider, Link, Typography } from '@mui/material'
 import backgroundImage from '../assets/hero-background.jpg';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 
@@ -47,18 +47,20 @@ function FooterSection() {
             info@cleverbooks.com
           </Typography>
         </Box>
-        <Box display='flex' flexDirection='column'>
+        <Divider orientation="vertical" variant="middle" sx={{backgroundColor:"white", fontWeight:'600'}} flexItem />
+
+        <Box display='flex' flexDirection='column' alignItems={{ xs:'center', sm:'unset'}}>
           <Link href="#" underline="hover">
-            lorem
+            Product
           </Link>
           <Link href="#" underline="hover">
-            lorem
+            Pricing
           </Link>
           <Link href="#" underline="hover">
-            lorem
+            Blog
           </Link>
           <Link href="#" underline="hover">
-            lorem
+            Contact us
           </Link>
         </Box>
       </Stack>

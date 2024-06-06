@@ -43,9 +43,9 @@ const HeroContainer = styled(Container)(({ theme }) => ({
 const HeroSection = () => {
   return (
     <HeroContainer maxWidth="false" sx={{ position: 'relative', top: '0%', display: 'flex', flexDirection: { xs: 'column', md: 'row' }, height: '45rem' }}>
-      <Box padding={{ xs: '0', md: '50px' }} display='flex' flexDirection='column' width={{ xs: '100%', md: '60%' }} height={{ xs: '45%', md: 'unset' }}>
+      <Box padding={{ xs: '0', md: '50px' }} display='flex' flexDirection='column' width={{ xs: '100%', md: '60%' }} height={{ xs: '39%', md: 'unset' }}>
         <Stack>
-          <Typography variant="h2" component="h1" gutterBottom textAlign='left' sx={{ fontWeight: 'bold', fontSize: { xs: '40px', md: '70px' } }}>
+          <Typography variant="h2" component="h1" gutterBottom textAlign='left' sx={{ fontWeight: 'bold', fontSize: { xs: '40px', md: '65px' } }}>
             <span style={{
               background: 'linear-gradient(125deg, #9f6eed, #fc907e, #9f6eed, #fc907e)',
               WebkitBackgroundClip: 'text',

@@ -12,7 +12,7 @@ const ProblemTargetSection = () => {
 
   return (
     <Container sx={{ padding: '50px 0', backgroundColor: '#f9f9f9', borderRadius:'15px'}}>
-      <Typography variant="h4" gutterBottom align="center">Features of CleverBooks</Typography>
+      <Typography variant="h4" fontWeight='600' gutterBottom align="center">Features of CleverBooks</Typography>
       <Tabs value={value} onChange={handleChange} centered>
         <Tab label="Automated Purchasing" />
         <Tab label="Real-Time Analytics" />

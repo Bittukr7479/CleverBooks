@@ -22,7 +22,7 @@ export default function MediaCard() {
   </Typography>
     <Grid container justifyContent='space-between' spacing={4} sx={{ padding:{xs:"40px 20px", sm:'40px 120px'}, backgroundColor: 'transparent' }}>
       <Grid item xs={12} sm={12} md={6} lg={4}>
-        <Card sx={{ padding: '30px', height: '300px', borderRadius: '20px', border: '2px solid #FFFFFF10', backgroundColor:'#f9f9f9'}}>
+        <Card sx={{ padding: '30px', height: '300px', borderRadius: '20px',  border: '2px solid #f4f4f4de', backgroundColor:'#f9f9f9'}}>
           <img src={overstock} alt="Overstocking" height='100rem' />
           <CardContent sx={{ padding: '20px 0px 0px 0px' }}>
             <Typography gutterBottom variant="h5" color="black" component="div">
