@@ -13,6 +13,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import logo from './assets/logo.png'
+import man1 from './assets/avatar/man1.jpeg'
 
 const pages = ["Products", "Pricing", "Blog"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -148,7 +149,7 @@ export default function App(props) {
                   <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                     <Avatar
                       alt="Remy Sharp"
-                      src="/static/images/avatar/2.jpg"
+                      src={man1}
                     />
                   </IconButton>
                 </Tooltip>

@@ -16,11 +16,11 @@ export default function MediaCard() {
     color='black'
     textAlign="center"
     paddingTop="5rem"
-    // paddingBottom="calc(8rem - 5rem)"
+    // paddingBottom="calc(8rem - 5rem)"{ xs:'column', sm:'row'}
   >
     Three key problems solved by CleverBooks:
   </Typography>
-    <Grid container spacing={3} sx={{ padding: '60px 120px', backgroundColor: 'transparent' }}>
+    <Grid container justifyContent='space-between' spacing={4} sx={{ padding:{xs:"40px 20px", sm:'40px 120px'}, backgroundColor: 'transparent' }}>
       <Grid item xs={12} sm={12} md={6} lg={4}>
         <Card sx={{ padding: '30px', height: '300px', borderRadius: '20px', border: '2px solid #FFFFFF10', backgroundColor:'#f9f9f9'}}>
           <img src={overstock} alt="Overstocking" height='100rem' />

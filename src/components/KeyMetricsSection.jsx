@@ -20,27 +20,27 @@ const KeyMetrics = () => {
       </Typography>
       <Grid container spacing={4} justifyContent="center">
         <Grid item xs={12} sm={4} textAlign="center">
-          <Box sx={{ backgroundColor: '#f9f9f9', padding: '20px', borderRadius: '15px', border: '2px solid black' }}>
+          <Box sx={{ backgroundColor: '#f9f9f9', padding: '20px', borderRadius: '15px', border: '2px solid #f4f4f4de' }}>
             <TrendingUpIcon sx={{ color: 'green' }} />
-            <Typography variant="h5" fontweight='600' gutterBottom>90% Accuracy</Typography>
+            <Typography variant="h5" fontWeight='600' gutterBottom>90% Accuracy</Typography>
             <Typography variant="body1" sx={{ minHeight: '4rem' }} >
               Achieve 90% accuracy in demand forecasting with our advanced algorithms.
             </Typography>
           </Box>
         </Grid>
         <Grid item xs={12} sm={4} textAlign="center">
-          <Box sx={{ backgroundColor: '#f9f9f9', padding: '20px', borderRadius: '15px', border: '2px solid black' }}>
+          <Box sx={{ backgroundColor: '#f9f9f9', padding: '20px', borderRadius: '15px', border: '2px solid #f4f4f4de' }}>
             <ShoppingCartIcon sx={{ color: 'green' }} />
-            <Typography variant="h5" fontweight='600' gutterBottom>50% Reduction</Typography>
+            <Typography variant="h5" fontWeight='600' gutterBottom>50% Reduction</Typography>
             <Typography variant="body1" sx={{ minHeight: '4rem' }} >
               Reduce stockouts by 50% with real-time inventory management.
             </Typography>
           </Box>
         </Grid>
         <Grid item xs={12} sm={4} textAlign="center">
-          <Box sx={{ backgroundColor: '#f9f9f9', padding: '20px', borderRadius: '15px', border: '2px solid black' }}>
+          <Box sx={{ backgroundColor: '#f9f9f9', padding: '20px', borderRadius: '15px', border: '2px solid #f4f4f4de' }}>
             <SpeedIcon sx={{ color: 'green' }} />
-            <Typography variant="h5" fontweight='600' gutterBottom>30% Increase</Typography>
+            <Typography variant="h5" fontWeight='600' gutterBottom>30% Increase</Typography>
             <Typography variant="body1" sx={{ minHeight: '4rem' }} >
               Increase inventory turnover by 30% with optimized processes.
             </Typography>
